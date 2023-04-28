@@ -25,6 +25,7 @@ body {
 .container h1 {
 	margin-bottom: 10px;
 	text-align: center;
+	color: #2fffff;
 	font-weight: 700;
 }
 
@@ -48,8 +49,8 @@ body {
 }
 
 .searhc-box button {
-	background-color: #675afe;
-	color: #fff;
+	background-color: #2fffff;
+	color: #161922;
 	padding: 10px 15px;
 	border: none;
 	font-weight: 700px;
@@ -60,7 +61,7 @@ body {
 }
 
 .searhc-box button:hover {
-	background-color: #3a28fa;
+	background-color: #1b9e9e;
 }
 
 
@@ -97,7 +98,7 @@ body {
 
 .username {
 	font-size: 13px;
-	color: #675afe;
+	color: #2fffff;
 }
 
 .bio {
@@ -128,4 +129,15 @@ body {
 	display: flex;
 	align-items: center;
 	font-size: 13px;
+	margin-bottom: 15px;
+}
+
+.media a {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+	text-decoration: none;
+	color: #2fffff;
+	margin-bottom: 15px;
 }

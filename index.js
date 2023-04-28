@@ -33,9 +33,9 @@ const searchGithub = async() =>{
 				<p>
 						<span class="media-value">${data.location || 'Not Available'}</span>
 				</p>
-				<p>
-						<span class="media-value">${data.blog || 'Not Available'}</span>
-				</p>
+				<a href="${data.blog}" target="_blank">
+						<span class="media-value">${'Click for watch' || 'Not Available'}</span>
+				</a>
 				<p>
 						<span class="media-value">${data.twitter_username || 'Not Available'}</span>
 				</p>
